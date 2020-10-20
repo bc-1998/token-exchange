@@ -1,0 +1,104 @@
+[33mcommit e332c28db5f18524d033e3628fb746116231f0ed[m[33m ([m[1;36mHEAD -> [m[1;32m12-redux[m[33m)[m
+Author: yma <cs603@yahoo.com>
+Date:   Tue Oct 20 10:07:31 2020 -0400
+
+    first dapp exchange
+
+[33mcommit b42e1d0196b68e740b998e365eab35b47f41ac93[m
+Author: Yuling Ma <zhenhappy13@gmail.com>
+Date:   Fri Oct 2 11:19:34 2020 -0400
+
+    redux Cancel Orders
+
+[33mcommit 73a22294a2a50440cdb4d76e860958ad55cdec52[m[33m ([m[1;31morigin/12-redux[m[33m)[m
+Merge: 3d82f71 14725fc
+Author: Gregory McCubbin <gwmccubbin@users.noreply.github.com>
+Date:   Tue Jun 4 10:59:24 2019 -0500
+
+    Merge pull request #5 from gwmccubbin/fix/trade_function
+    
+    12 Fixes trade function
+
+[33mcommit 14725fc0715a0569dccc834836f9e90fd1253a47[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Tue Jun 4 10:49:48 2019 -0500
+
+    Deploys trade function fix
+
+[33mcommit 88a9e8c99e5959f76f0f49d075c6d1d49010c035[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Tue Jun 4 09:15:00 2019 -0500
+
+    Fixes trade function
+
+[33mcommit 3d82f7119cbdbbb8e05b18e776d2756aacaacba4[m[33m ([m[1;33mtag: 12-redux[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Thu Apr 11 11:49:21 2019 -0500
+
+    12. Redux
+
+[33mcommit 01f8d5b6209699bbe079e70d1c7bad133ae7b354[m[33m ([m[1;33mtag: 11-create-ui[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Thu Apr 11 10:24:57 2019 -0500
+
+    11. Create UI
+
+[33mcommit d2c27956f9edca89509e44092993e839b647dcb7[m[33m ([m[1;33mtag: 10-seed-exchange[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Wed Apr 10 21:21:48 2019 -0500
+
+    10. Seed Exchange
+
+[33mcommit 5bad33d43d66e0458fecddefe14cd81f61d8ce36[m[33m ([m[1;33mtag: 9-trades[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Wed Apr 10 21:02:57 2019 -0500
+
+    9. Trades
+
+[33mcommit bc27b4dd5659a2a9923006d6133662f4d83e28be[m[33m ([m[1;33mtag: 8-orders[m[33m, [m[1;31morigin/8-orders[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Wed Apr 10 20:26:52 2019 -0500
+
+    8. Orders
+
+[33mcommit b99cde229438aef0319391dd8908baaf6b99c54b[m[33m ([m[1;33mtag: 7-withdraws[m[33m, [m[1;33mtag: 6-deposits[m[33m, [m[1;31morigin/6-deposits[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Wed Apr 10 17:30:08 2019 -0500
+
+    6. Deposits
+
+[33mcommit ae26fb144cec4ae2070a30943c860e04ba2dda8b[m[33m ([m[1;33mtag: 5-delegated-token-transfers[m[33m, [m[1;31morigin/5-delegated-token-transfers[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Wed Apr 10 11:12:48 2019 -0500
+
+    5. Delegated Token Transfers
+
+[33mcommit f03336e00d65dfbcba5337b468d3af81896698a1[m[33m ([m[1;33mtag: 4-transfer-tokens[m[33m, [m[1;31morigin/4-transfer-tokens[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Wed Apr 10 10:25:19 2019 -0500
+
+    4. Transfer Tokens
+
+[33mcommit 1a929c3a840fa6ba60155804bf74bf7bff03fdc7[m[33m ([m[1;33mtag: 3-smart-contract-tests[m[33m, [m[1;31morigin/3-smart-contract-tests[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Tue Apr 9 21:09:11 2019 -0500
+
+    3. Smart Contract Tests
+
+[33mcommit 0a4a92139c0c5a8bd59b73ba8fe661d8273dd514[m[33m ([m[1;33mtag: list[m[33m, [m[1;33mtag: 2-smoke-test[m[33m, [m[1;31morigin/2-smoke-test[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Tue Apr 9 19:52:48 2019 -0500
+
+    2. Smoke Test
+
+[33mcommit 831f87570f8f81181329fccbc3d3fe06de362f0a[m[33m ([m[1;33mtag: 1-create-project[m[33m, [m[1;31morigin/1-create-project[m[33m)[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Mon Apr 8 11:53:07 2019 -0500
+
+    1. Create-project
+
+[33mcommit 5ae55cc26ecc5f3374f3292d40604f3866994cca[m
+Author: Gregory McCubbin <gwmccubbin@gmail.com>
+Date:   Mon Apr 8 09:47:14 2019 -0500
+
+    Initial commit from Create React App
