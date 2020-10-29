@@ -30,7 +30,8 @@ import {
   tokenDepositAmountChanged,
   tokenWithdrawAmountChanged,
 } from '../store/actions'
-const showForm = (props) => {
+const showForm = 
+(props) => {
   const {
     dispatch,
     exchange,
@@ -189,6 +190,16 @@ class Balance extends Component {
 
   async loadBlockchainData() {
     const { dispatch, web3, exchange, token, account } = this.props
+  /*  if (dispatch == null)
+      console.log('dispatch is null in Balance.js')
+      if (web3 == null)
+      console.log('web3 is null in Balance.js')
+      if (exchange == null)
+      console.log('exchange is null in Balance.js')
+      if (token == null)
+      console.log('token is null in Balance.js')
+      if (account == null)
+      console.log('account is null in Balance.js')*/
     await loadBalances(dispatch, web3, exchange, token, account)
   }
 

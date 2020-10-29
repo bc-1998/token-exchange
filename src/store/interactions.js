@@ -33,6 +33,9 @@ export const loadWeb3 = (dispatch) => {
 
 export const loadAccount = async (web3, dispatch) => {
   const accounts = await web3.eth.getAccounts()
+  //if (accounts.length ===0)  //empty array
+  //  window.alert('Connect to Metamask')
+  console.log('accounts', accounts) //only 1 account in accounts -the one from metamask connected to/accessing localhost：3000
   const account = accounts[0]
   dispatch(web3AccountLoaded(account))
   return account
@@ -89,6 +92,7 @@ export const subscribeToEvents = async (web3, token, account, exchange, dispatch
   })
 
   exchange.events.Trade({}, (error, event) => {
+    if (account != null)  //else show metamask login
     loadBalances(dispatch, web3, exchange, token, account)
     dispatch(orderFilled(event.returnValues))
     
@@ -106,8 +110,7 @@ export const subscribeToEvents = async (web3, token, account, exchange, dispatch
     //todo handle event's info to dispatch all the otehr exchange balancesloaded
   })
 
-  exchange.events.Order({}, (error, event) => {
-    
+  exchange.events.Order({}, (error, event) => {    
     dispatch(orderMade(event.returnValues))
   })
 }
@@ -135,6 +138,10 @@ export const fillOrder = (dispatch, exchange, order, account) => {
 }
 
 export const loadBalances = async (dispatch, web3, exchange, token, account) => {
+
+  if (account == null){
+
+  }
   // Ether balance in wallet  //The web3-eth package allows you to interact with an Ethereum blockchain and Ethereum smart contracts.
   const etherBalance = await web3.eth.getBalance(account)
   dispatch(etherBalanceLoaded(etherBalance))

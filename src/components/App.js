@@ -18,9 +18,16 @@ class App extends Component {
 
   async loadBlockchainData(dispatch) {
     const web3 = loadWeb3(dispatch)
+    if (web3 ==null)
+      window.alert('Connect to Metamask')
     await web3.eth.net.getNetworkType()
     const networkId = await web3.eth.net.getId()
-    await loadAccount(web3, dispatch)
+    console.log('networkId', networkId)// the same from truffle migrate output's networkId
+    let account = await loadAccount(web3, dispatch)
+	if (!account){ //the same as  == null
+      await window.ethereum.enable();
+      account = await loadAccount(web3, dispatch)
+    }
     const token = await loadToken(web3, networkId, dispatch) //note that web3 (provided through metamask in this case) is the key to get  contract blockchain network and address info.
     if(!token) {
       window.alert('Token smart contract not detected on the current network. Please select another network with Metamask.')
